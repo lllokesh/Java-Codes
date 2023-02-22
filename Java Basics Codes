@@ -1,0 +1,61 @@
+    //Q1 - Take 2 integer values in two variables x and y and print their product. (Easy)
+class HelloWorld {
+public static void main(String[] args) {
+int x=5;
+int y=6;
+System.out.println("Value of x is : " +x);
+System.out.println("Value of y is : " +y );
+System.out.println("Product of Two Integer : " +x*y);
+} 
+}
+
+//Q2 - Print the ASCII value of character ‘U’.
+class HelloWorld {
+public static void main(String[] args) {
+int x='U';
+System.out.println("Value of ASCII is : " +x);
+} 
+}
+
+Q3 - Write a Java program to take the length and breadth of a rectangle and print its area. 
+class HelloWorld {
+public static void main(String[] args) {
+//Q3 - Write a Java program to take the length and breadth of a rectangle and print its area. 
+
+int length=7;
+int breadth=8;
+int area=length*breadth;
+System.out.println("The length is "+length);
+System.out.println("The breadth is "+breadth);
+System.out.println("The Area of reactangle is  : " +area);
+} 
+}
+
+Q4 - Write a Java program to calculate the cube of a number.
+class HelloWorld {
+public static void main(String[] args) {
+//Q4 - Write a Java program to calculate the cube of a number.
+
+int x=5;
+int cube=x*x*x;
+System.out.println("The Cube of a number "+cube);
+} 
+
+
+Q5 - Write a Java program to swap two numbers with the help of a third variable.
+
+class HelloWorld {
+public static void main(String[] args) {
+int num1=5;
+int num2=6;
+int temp;
+System.out.println("The number before swap :"+num1);
+System.out.println("The number before swap :"+num2);
+temp=num1;
+num1=num2;
+num2=temp;
+System.out.println("The number after swap :"+num1);
+System.out.println("The number after swap :"+num2);
+}
+}
+
